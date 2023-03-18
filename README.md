@@ -63,10 +63,10 @@
 <details>
 <summary><b>Course 7: </b><a href="https://www.coursera.org/learn/principles-of-ui-ux-design?specialization=meta-front-end-developer"><b>Principles of UI/UX Design</b></a></summary>
 
-  * Week 1: 
-  * Week 2: 
-  * Week 3: 
-  * Week 4: 
+  * Week 1: [Introduction to UX and UI design](https://github.com/ginny100/Meta-Front-End-Developer/tree/master/Course%207%20-%20Principles%20of%20UX-UI%20Design/Week%201%20-%20Introduction%20to%20UX%20and%20UI%20design)
+  * Week 2: [Evaluating interactive design](https://github.com/ginny100/Meta-Front-End-Developer/tree/master/Course%207%20-%20Principles%20of%20UX-UI%20Design/Week%202%20-%20Evaluating%20interactive%20design)
+  * Week 3: [Applied Design Fundamentals](https://github.com/ginny100/Meta-Front-End-Developer/tree/master/Course%207%20-%20Principles%20of%20UX-UI%20Design/Week%203%20-%20Applied%20Design%20Fundamentals)
+  * Week 4: [Designing your UI](https://github.com/ginny100/Meta-Front-End-Developer/tree/master/Course%207%20-%20Principles%20of%20UX-UI%20Design/Week%204%20-%20Designing%20your%20UI)
   * Week 5: 
 </details>
 
