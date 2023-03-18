@@ -52,7 +52,7 @@
 </details>
 
 <details>
-<summary><b>Course 6: </b><a href="https://www.coursera.org/learn/advanced-react?specialization=meta-front-end-developer"><b>Advanced React</b></a></summary>
+<summary><b>Course 6: </b><a href="https://github.com/ginny100/Meta-Front-End-Developer/tree/master/Course%206%20-%20Advanced%20React"><b>Advanced React</b></a></summary>
 
   * Week 1: [Components](https://github.com/ginny100/Meta-Front-End-Developer/tree/master/Course%206%20-%20Advanced%20React/Week%201%20-%20Components)
   * Week 2: [React Hooks and Custom Hooks](https://github.com/ginny100/Meta-Front-End-Developer/tree/master/Course%206%20-%20Advanced%20React/Week%202%20-%20React%20Hooks%20and%20Custom%20Hooks)
@@ -61,7 +61,7 @@
 </details>
 
 <details>
-<summary><b>Course 7: </b><a href="https://www.coursera.org/learn/principles-of-ui-ux-design?specialization=meta-front-end-developer"><b>Principles of UI/UX Design</b></a></summary>
+<summary><b>Course 7: </b><a href="https://github.com/ginny100/Meta-Front-End-Developer/tree/master/Course%207%20-%20Principles%20of%20UX-UI%20Design"><b>Principles of UI/UX Design</b></a></summary>
 
   * Week 1: [Introduction to UX and UI design](https://github.com/ginny100/Meta-Front-End-Developer/tree/master/Course%207%20-%20Principles%20of%20UX-UI%20Design/Week%201%20-%20Introduction%20to%20UX%20and%20UI%20design)
   * Week 2: [Evaluating interactive design](https://github.com/ginny100/Meta-Front-End-Developer/tree/master/Course%207%20-%20Principles%20of%20UX-UI%20Design/Week%202%20-%20Evaluating%20interactive%20design)
