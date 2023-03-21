@@ -72,7 +72,7 @@ const Header = () => {
 
     // Remove listeners for the scroll event
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -110,8 +110,8 @@ const Header = () => {
           <nav>
             <HStack spacing={8}>
               {/* Add links to Projects and Contact me section */}
-              <a href="#projects-section" onClick={handleClick("projects")}>Projects</a>
-              <a href="#contact-me" onClick={handleClick("contactme")}>Contact Me</a>
+              <a href="#projects" onClick={handleClick("projects")}>Projects</a>
+              <a href="#contact" onClick={handleClick("contactme")}>Contact Me</a>
               {/* Add links to Projects and Contact me section */}
             </HStack>
           </nav>
@@ -120,4 +120,5 @@ const Header = () => {
     </Box>
   );
 };
+
 export default Header;

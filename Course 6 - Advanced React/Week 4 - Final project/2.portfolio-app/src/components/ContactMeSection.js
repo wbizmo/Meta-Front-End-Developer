@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import { useFormik } from "formik";
 import {
   Box,
@@ -17,7 +17,7 @@ import FullScreenSection from "./FullScreenSection";
 import useSubmit from "../hooks/useSubmit";
 import { useAlertContext } from "../context/alertContext";
 
-const LandingSection = () => {
+const ContactMeSection = () => {
   const { isLoading, response, submit } = useSubmit();
   const { onOpen } = useAlertContext();
 
@@ -26,7 +26,7 @@ const LandingSection = () => {
     initialValues: {
       firstName: "",
       email: "",
-      type: "",
+      type: "hireMe",
       comment: ""
     },
     onSubmit: (values) => {
@@ -65,7 +65,7 @@ const LandingSection = () => {
           <form onSubmit={formik.handleSubmit}>
             <VStack spacing={4}>
               {/* Show the error messages for each field when the field is touched and the validation fails */}
-              <FormControl isInvalid={formik.touched.firstName && formik.errors.firstName}>
+              <FormControl isInvalid={!!formik.errors.firstName && formik.touched.firstName}>
                 <FormLabel htmlFor="firstName">Name</FormLabel>
                 <Input
                   id="firstName"
@@ -75,7 +75,7 @@ const LandingSection = () => {
                 {/* Show the error messages for each field when the field is touched and the validation fails */}
                 <FormErrorMessage>{formik.errors.firstName}</FormErrorMessage>
               </FormControl>
-              <FormControl isInvalid={formik.touched.email && formik.errors.email}>
+              <FormControl isInvalid={!!formik.errors.email && formik.touched.email}>
                 {/* Show the error messages for each field when the field is touched and the validation fails */}
                 <FormLabel htmlFor="email">Email Address</FormLabel>
                 <Input
@@ -102,7 +102,7 @@ const LandingSection = () => {
                 </Select>
               </FormControl>
               {/* Show the error messages for each field when the field is touched and the validation fails */}
-              <FormControl isInvalid={formik.touched.comment && formik.errors.comment}>
+              <FormControl isInvalid={!!formik.errors.comment && formik.touched.comment}>
                 <FormLabel htmlFor="comment">Your message</FormLabel>
                 <Textarea
                   id="comment"
@@ -125,4 +125,4 @@ const LandingSection = () => {
   );
 };
 
-export default LandingSection;
+export default ContactMeSection;
